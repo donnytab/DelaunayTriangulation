@@ -37,8 +37,8 @@ The Graph.java is to represent the weighted undirected graph of the Delaunay tri
 2.7 IPE
 The IPE.java is a class structure to build Ipe format files. Ipe files are XML files. They have unique doctype called ipe and are defined by ipe.dtd. In my implementation, this XML files are simplified with only key elements left. They have an XML document as follow:
 
-"<ipe version="70206" creator="Ipe 7.2.7" >
-	<page><path></path></page></ipe>"
+<ipe version="70206" creator="Ipe 7.2.7" >
+	<page><path></path></page></ipe>
 
 Based on the documentation of the IPE official website (http://ipe.otfried.org/manual/manual.html ), m (move to) can be used to begin new path and l (line to) can be used to add straight line to the path.  And h is used to close a path. Since this application is about triangulation, operator m, l and h are enough for the construction of all paths in a Delaunay triangulation. By storing all the X and Y coordinate values to m and l respectively for each two points in every edge in the graph, the XML files can record the entire graph. 
 
