@@ -1,5 +1,6 @@
 # DelaunayTriangulation
-1. Introduction
+
+# 1. Introduction
 1.1 Overview
 The Delaunay Triangulation project is an implementation of randomized incremental algorithm for Delaunay triangulation. This project application is implemented using Java under the environment of JDK 1.8 in Eclipse (Neon.2 Release (4.6.2)).
 
@@ -11,7 +12,7 @@ The main goal of this application is to provide the following functionalities:
 (4) Save current graph as an “.ipe” format file.
 
 
-2. Implementation
+# 2. Implementation
 2.1 Software Files Structure
 
 2.2 DeTriAlgorithm
@@ -40,9 +41,6 @@ The IPE.java is a class structure to build Ipe format files. Ipe files are XML f
 	<page>
 		<path>
 		</path>
-		<path>
-		     …
-		</path>
 	</page>
 </ipe>
 
@@ -55,7 +53,7 @@ The Triangle.java is a class structure representing the shape of triangle of Del
 The Vertex.java is a class structure representing the vertex in the graph of Delaunay triangulation. It has auxiliary functions for distance calculation and basic arithmetic operations for two given vertices.
 
 
-3. User Guide
+# 3. User Guide
 3.1 UI Design
 
 3.2 Add Points
@@ -79,7 +77,7 @@ Saved Ipe file can be open by Ipe application. In this documentation, the versio
 	Clear all points and the current graph.
 
 
-4. Reference
+# 4. Reference
 [1] “Delaunay Triangulation Algorithm and Application to Terrain Generation”, Faniry Harijaona Razafindrazaka
 [2] ”Voronoi diagrams and Delaunay triangulations”, Steven Fortune, 1995
 [3] "Computational Geometry - Algorithms and Applications 3rd Ed”, Mark de Berg, Otfried Cheong, Marc van Kreveld, Mark Overmars
